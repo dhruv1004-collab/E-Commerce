@@ -1,0 +1,147 @@
+.shopcategory_banner {
+    display: block;
+    margin: 30px auto;
+    width: 82%;
+}
+
+.shop_category_indexSort {
+    display: flex;
+    margin: 0px 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sortcategory_sort {
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.sortcategory_sort img {
+    width: 15px;
+    height: 11px;
+}
+
+.shop_category_indexSort p span {
+    font-weight: 600;
+}
+
+.shopcategory_products {
+    margin: 20px 110px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 50px;
+}
+
+.shopcategory_loadmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 233px;
+    height: 69px;
+    border-radius: 75px;
+    background: #ededed;
+    color: #787878;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media(max-width:870px) {
+    .shopcategory_products {
+        margin: 20px 90px;
+    }
+
+    .shop_category_indexSort {
+        margin: 0px 110px;
+    }
+
+    .sortcategory_sort {
+        padding: 8px 11px;
+        gap: 6px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width:800px){
+    .shopcategory_banner{
+        margin: 50px auto 30px;
+        width: 85%;
+    }
+
+    .shopcategory_products{
+        width: 85%;
+    }
+
+    
+}
+
+@media(max-width:690px) {
+    .shopcategory_products {
+        margin: 20px 60px;
+    }
+
+    .shop_category_indexSort {
+        margin: 0px 90px;
+    }
+
+    
+
+}
+
+@media(max-width:560px) {
+    .shop_category_indexSort p span {
+        font-weight: 500;
+    }
+
+    .shop_category_indexSort {
+        margin: 0px 65px;
+    }
+
+    .shopcategory_products {
+        margin: 20px 45px;
+    }
+
+    .shop_category_indexSort p{
+        font-size: 12px;
+    }
+
+
+}
+
+@media (max-width:500px){
+    .shopcategory_products {
+        margin: 20px 15px;
+    }
+}
+
+@media(max-width:415px){
+    .shopcategory_products{
+        grid-template-columns: 1fr 1fr 1fr ;
+         margin: 20px 35px;
+    }
+
+    .shop_category_indexSort{
+        margin: 20px 25px;
+    }
+}
+
+@media(max-width:360px){
+    .shopcategory_products{
+        margin: 20px 20px;
+    }
+
+    .shop_category_indexSort p{
+        font-size: 11px;
+    }
+
+    .sortcategory_sort{
+        transform: scale(0.8);
+    }
+}
